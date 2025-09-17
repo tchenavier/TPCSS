@@ -1,0 +1,15 @@
+div#bandeau {
+    width: 500px;
+    height: 250px;
+}
+
+div#contenu {
+    width: 600px; 
+    height: 650px;
+}
+
+div#piedpage {
+    width: 500px;
+    height: 200px;
+    clear: both;
+}
