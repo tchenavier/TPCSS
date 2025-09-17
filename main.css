@@ -1,20 +1,28 @@
 div#bandeau {
-    width: 100%; /* la largeur du bloc*/
-    height: 100px; /*la hauteur du bloc*/
-    background-color:#ff0000;
+    width: 100%;/* la largeur du bloc*/
+    height: 100px;/*la hauteur du bloc*/
+    text-align: center;
+    background-color: #ff0000;
 }
 
 div#contenu {
-    width: 100%px; 
+    width: 100%;
     height: 680px;
-    background-color:#00ff22;
+    text-align: center;
+    background-color: #00ff22;
 }
 
-
+div#menu {
+    float: left;
+    width: 100px;
+    height: 500px;
+    background-color: #f73978;
+}
 
 div#piedpage {
     width: 100%;
     height: 100px;
-    background-color:#e211d8;
+    text-align: center;
+    background-color: #e211d8;
     clear: both;
 }
