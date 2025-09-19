@@ -1,40 +1,56 @@
 div#bandeau {
-    width: 100%;/* la largeur du bloc*/
-    height: 100px;/*la hauteur du bloc*/
+    width: 100%;
+    /* la largeur du bloc*/
+    height: 100px;
+    /*la hauteur du bloc*/
     text-align: center;
     background-color: #ff0000;
 }
 
 div#contenu {
-    float: right;/*Pour mettre le contenu du site a droite*/
-    width: 90%;
+    float: right;
+    /*Pour mettre le contenu du site a droite*/
+    width: 100%;
     height: 680px;
     text-align: center;
     background-color: #00ff22;
 }
+
 div#FinContenu {
-    float: right;/*Pour mettre le contenu du site a droite*/
+    float: right; /*Pour mettre le contenu du site a droite*/
     width: 100%;
     height: 80%;
     text-align: center;
 }
+
 div#blocnews {
-	float:right;
-	width:15%;
-	height:15%;
-	background-color:#00c3ff;
-	}
+    float: right; /*Pour le mettre a droite*/
+    width: 15%;
+    height: 15%;
+    background-color: #00c3ff;
+    clear: both;
+}
+
+div#texteUn {
+    width: 75%;
+    height: 25%;
+    /*la hauteur du bloc*/
+
+}
 
 div#menu {
     float: left; /*Pour mettre le menu a gauche*/
-    width: 100px;
-    height: 680px;
+    width: 10%;
+    height: 100%;
+    /*clear: both;*/
 }
+
 div#menuHaut {
     width: 164px;
     height: 50%;
     background-color: #f73978;
 }
+
 div#menuBas {
     width: 164px;
     height: 50%;
