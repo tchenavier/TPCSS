@@ -11,9 +11,9 @@ div#contenu {
     float: right;
     /*Pour mettre le contenu du site a droite*/
     width: 100%;
-    height: 680px;
+    height: 1000px;
     text-align: center;
-    background-color: #00ff22;
+    background-color: #ffffff;
 }
 
 div#FinContenu {
@@ -72,3 +72,46 @@ p#TexteII {
 color: #ff0000;
 font-size: 30px;
 }
+
+/*Partie relative a la partie tableau*/
+
+p#red {
+color: #ff0000;
+text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  color:#15ff00;
+  font-size: 15px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  color:#15ff00;
+  font-size: 15px;
+}
+td#milieux {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  color:#2f00ff;
+  font-size: 15px;
+}
+th#milieux {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  color:#2f00ff;
+  font-size: 15px;
+}
+/*Fin de la Partie relative a la partie tableau*/
