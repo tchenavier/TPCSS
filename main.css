@@ -7,17 +7,37 @@ div#bandeau {
 
 div#contenu {
     float: right;/*Pour mettre le contenu du site a droite*/
-    width: 90%;
+    width: 100%;
     height: 680px;
     text-align: center;
     background-color: #00ff22;
 }
+div#FinContenu {
+    float: right;/*Pour mettre le contenu du site a droite*/
+    width: 100%;
+    text-align: center;
+}
+div#blocnews {
+	float:right;
+	width:15%;
+	height:15%;
+	background-color:#00c3ff;
+	}
 
 div#menu {
     float: left; /*Pour mettre le menu a gauche*/
+    width: 10%;
+    height: 100%;
+}
+div#menuHaut {
     width: 164px;
-    height: 680px;
+    height: 50%;
     background-color: #f73978;
+}
+div#menuBas {
+    width: 164px;
+    height: 50%;
+    background-color: #3946f7;
 }
 
 div#piedpage {
