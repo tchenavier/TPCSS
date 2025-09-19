@@ -6,16 +6,17 @@ div#bandeau {
 }
 
 div#contenu {
-    width: 100%;
+    float: right;/*Pour mettre le contenu du site a droite*/
+    width: 90%;
     height: 680px;
     text-align: center;
     background-color: #00ff22;
 }
 
 div#menu {
-    float: left;
-    width: 100px;
-    height: 500px;
+    float: left; /*Pour mettre le menu a gauche*/
+    width: 164px;
+    height: 680px;
     background-color: #f73978;
 }
 
