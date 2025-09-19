@@ -64,3 +64,11 @@ div#piedpage {
     background-color: #e211d8;
     clear: both;
 }
+p#TexteI {
+color: #111fe2;
+font-size: 20px;
+}
+p#TexteII {
+color: #ff0000;
+font-size: 30px;
+}
