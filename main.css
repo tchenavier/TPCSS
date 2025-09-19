@@ -7,7 +7,7 @@ div#bandeau {
 
 div#contenu {
     float: right;/*Pour mettre le contenu du site a droite*/
-    width: 100%;
+    width: 90%;
     height: 680px;
     text-align: center;
     background-color: #00ff22;
@@ -15,6 +15,7 @@ div#contenu {
 div#FinContenu {
     float: right;/*Pour mettre le contenu du site a droite*/
     width: 100%;
+    height: 80%;
     text-align: center;
 }
 div#blocnews {
@@ -26,8 +27,8 @@ div#blocnews {
 
 div#menu {
     float: left; /*Pour mettre le menu a gauche*/
-    width: 10%;
-    height: 100%;
+    width: 100px;
+    height: 680px;
 }
 div#menuHaut {
     width: 164px;
