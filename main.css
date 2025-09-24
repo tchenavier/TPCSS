@@ -7,6 +7,12 @@ div#bandeau {
     background-color: #ff0000;
 }
 
+body
+{
+margin: 0px;
+padding: 0px;
+}
+
 div#contenu {
     float: right;
     /*Pour mettre le contenu du site a droite*/
